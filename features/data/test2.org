@@ -1,0 +1,9 @@
+* TODO 12345678901234567890                                :backlog:kanban:
+* TODO todo2_2                                                  :drawing:manufacturing:kanban:
+* DONE todo3_2                                                         :manufacturing:
+* DONE todo4_1                                                         :drawing:
+* TODO todo5_3                                                      :kanban:done:
+* DONE todo6_3                                                         :done:
+* TODO should not produce a row
+#+BEGIN: tagged :columns "%9backlog(BACKLOG)|%5drawing(DRAWING)|manufacturing(MANUFACTURING)|%5done(FINISHED)" :match "kanban"
+#+END:
